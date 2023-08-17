@@ -1,44 +1,310 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dokumentasi Bot WhatsApp</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== LINE ICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>NANS OFFC</title>
 </head>
 <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <!-- nav -->
+        <nav class="nav container padd-15">
+            <!-- nav logo -->
+            <a href="#" class="nav-logo">
+                <h2>NANS OFFC</h2>
+            </a>
+            <!-- nav menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav list -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <!-- nav close -->
+                <div class="nav-close" id="nav-close">
+                    <i class="lni lni-close"></i>
+                </div>
+            </div>
+            <!-- nav btn -->
+            <div class="nav-btns">
+                <!-- theme change btn -->
+                <i class="lni lni-pallet change-theme" id="theme-button"></i>
+                <!-- toggle btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Bot WhatsApp</a>
-</nav>
+    <!--=============== MAIN ===============-->
+    <main class="main-content">
+        <!--=============== HOME ===============-->
+        <section class="home" id="home">
+            <div class="container">
+                <!-- intro -->
+                <div class="intro">
+                    <!-- avatar image -->
+                    <img src="profile.png" alt="NANS OFFC">
+                    <!-- info -->
+                    <h1>NANS OFFC</h1>
+                    <span>I'm a <span class="info-text">Adnan</span></span>
+                    <!-- social icons -->
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="lni lni-youtube"></i></a></li>
+                        <li><a href="#"><i class="lni lni-tiktok"></i></a></li>
+                        <li><a href="#"><i class="lni lni-instagram-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-telegram-original"></i></a></li>
+                        <li><a href="#"><i class="lni lni-twitter-original"></i></a></li>
+                    </ul>
+                    <!-- button -->
+                    <div>
+                        <a href="#" class="btn btn-default">Hello World!</a>
+                    </div>
+                    <div>
+                    <br>
+                    </div>
+                    <!-- scroll down mouse wheel -->
+                    <div class="scroll-down">
+                        <a href="#" class="mouse-wrapper">
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== About ===============-->
+        <section class="about section" id="about">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">About Me</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!-- avatar img -->
+                        <img src="avatar-2.svg" alt="">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                    <!-- about text -->
+                                    <p>Halo, perkenalkan, nama saya Adnan. Saya merupakan pengelola YouTube dengan nama NANS OFFC. Saya tinggal di Jawa Barat, Indonesia. Saya memiliki channel di YouTube yang berfokus pada berbagi konten menarik dan informatif. Saya sangat antusias dalam berbagi pengetahuan dan pengalaman dengan orang-orang melalui platform YouTube. Jika Anda tertarik untuk mengetahui lebih banyak tentang topik yang saya bahas, silakan kunjungi channel saya di YouTube dengan nama NANS OFFC. Terima kasih!</p>
+                                    <div>
+                                        <a href="https://t.me/nansoffc" class="btn btn-default">Contact me</a>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <!-- skill item -->
+                                        <div class="skill-item">
+                                            <h4>Amanah</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 100%; background: rgb(108,108,229);"></div>
+                                                <div class="skill-percent">100%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--=============== Services ===============-->
+        <!--=============== Pricing ===============-->
+        <section class="section pricing" id="pricing">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Pricing Plans</h2>
+                <div class="row">
+                    <!-- prices -->
+                    <div class="prices">
+                        <div class="price-item">
+                            <img src="profile.png" alt="">
+                            <h3 class="plan">Jadibot Tinggal Scan</h3>
+                            <p>Jasa Jadibot Tinggal Scan adalah layanan bagi kalian yang ingin membuat bot whatsapp di nomor kalian tapi bingung dengan cara menginstal bot sendiri.</p>
+                            <p>Note : Perlu 2 hp / device lain dan siapkan nomor untuk di jadikan bot. Spek panel 2gb cpu 80%, kalo mau lebih tinggi bisa langsung klik tombol di bawah dan tanyakan langsung berapa harganya.</p>
+                            <h3 class="price"><em>Rp</em>15.000<span>Month</span></h3>
+                            <a href="https://wa.me/6285174306183" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                     <!-- prices -->
+                     <div class="prices">
+                        <div class="price-item best">
+                            <span class="badge">Hot</span>
+                            <img src="profile.png" alt="">
+                            <h3 class="plan">Sewa Panel Pterodactyl</h3>
+                            <p>Sewa Panel Pterodactyl adalah layanan penyedia server untuk menjalankan bot whatsapp.</p>
+                            <p>Server terjamin aman 100%, Script Bot kalian aman apikey kalian aman, 100% aman, Sudah terinstall nodejs v17, 18, 19 auto install speedtest, ffmpeg, imagemagick, pupetter, php, pm2, nodemon, DLL</p>
+                            <h3 class="price"><em></em>10K - 40k<span>Month</span></h3>
+                            <a href="https://wa.me/6285174306183" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                     <!-- prices -->
+                     <div class="prices">
+                        <div class="price-item">
+                            <img src="profile.png" alt="">
+                            <h3 class="plan">Jasa Recode bot NERO MD</h3>
+                            <p>Jasa Recode bot NERO MD adalah layanan yang cocok untuk kalian jika ingin mengubah tampilan bot NERO MD kalian seperti menjadi milik kalian 100%.</p>
+                            <p>Admin akan merubah, Link Group, Instagram, Nama Owner, Nomor Owner, Tampilan Bot, Nama Bot, dll. Sesuai keinginan anda. perlu di ingat, ini tidak mencakup untuk menambahkan fitur / mengurangi fitur. ini hanya merubah tampilan dan yang sudah saya sebutkan di awal.</p>
+                            <h3 class="price"><em>Rp</em>10.000<span></span></h3>
+                            <a href="https://wa.me/6285174306183" class="btn btn-default">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=============== Portfolio ===============-->
+        <section class="portfolio section" id="portfolio">
+                <div class="row">
+                    <div class="portfolio-filter padd-15">
+                        <div class="portfolio-filter-inner">
+                        </div>
+        </section>
+        <!--=============== Testimonial ===============-->
+        <!--=============== Blog ===============-->
+        <!--=============== Contact ===============-->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <!-- section title -->
+                <h2 class="section-title padd-15">Contact us</h2>
+                <div class="row">
+                    <!-- contact box -->
+                    <div class="contact-box padd-15">
+                        <div class="contact-data">
+                            <!-- contact information -->
+                            <div class="contact-information">
+                                <h3 class="contact-subtitle">Call us for instant support</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-phone contact-icon"></i>
+                                    +62 851-7430-6183
+                                </span>
+                            </div>
+                             <!-- contact information -->
+                             <div class="contact-information">
+                                <h3 class="contact-subtitle">Write us by mail</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-user contact-icon"></i>
+                                    <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d8b6b9b6abb7bebebb98bfb5b9b1b4f6bbb7b5">[email&#160;protected]</a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- contact form -->
+                    <form action="" class="contact-form padd-15">
+                        <div class="contact-inputs">
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="email" class="contact-input">
+                                <label for="" class="contact-label">Email</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content">
+                                <input type="text" class="contact-input">
+                                <label for="" class="contact-label">Subject</label>
+                                <span></span>
+                            </div>
+                            <!-- contact content -->
+                            <div class="contact-content contact-area">
+                                <textarea name="" id="" cols="30" rows="10" class="contact-input"></textarea>
+                                <label for="" class="contact-label">Message</label>
+                                <span></span>
+                            </div>
+                        </div>
+                        <a href="/cdn-cgi/l/email-protection#06686768756960606546616b676f6a2865696b397573646c6365723b55737676697472" class="btn btn-default">Send Message</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--=============== Footer ===============-->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-text padd-15">
+                    <p>&copy; 2021 NANS OFFC</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!--=============== Theme Customize ===============-->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize your view</h2>
+            <p>Manage your font size, color, and background</p>
+            <!-- font size -->
+            <div class="font-size">
+                <h3>Font Size</h3>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3 active"></span>
+                        <span class="font-size-4"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+            <!-- color -->
+            <div class="color">
+                <h3>Color</h3>
+                <div class="choose-color">
+                    <span class="color-1"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3 active"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+            <!-- background -->
+            <div class="background">
+                <h3>background</h3>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5 for="bg-2">Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Dark</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<div class="container mt-4">
-  <header class="jumbotron">
-    <h1>Selamat datang di Dokumentasi Bot WhatsApp</h1>
-    <p>Di sini Anda akan menemukan panduan penggunaan Bot WhatsApp kami.</p>
-  </header>
-
-  <main>
-    <section>
-      <h2>Tentang Bot WhatsApp</h2>
-      <p>Penjelasan singkat mengenai apa itu Bot WhatsApp Anda.</p>
-    </section>
-
-    <section>
-      <h2>Cara Menggunakan</h2>
-      <ol>
-        <li>Langkah 1: ...</li>
-        <li>Langkah 2: ...</li>
-        <li>Langkah 3: ...</li>
-      </ol>
-    </section>
-  </main>
-
-  <footer class="mt-5 text-center">
-    <p>&copy; 2023 Dokumentasi Bot WhatsApp</p>
-  </footer>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!--=============== SWIPER JS ===============-->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    
+    <!--=============== JS ===============-->
+    <script src="main.js"></script>
 </body>
-</html>
+  </html>
+                      
